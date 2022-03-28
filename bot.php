@@ -358,7 +358,7 @@ Agora clique no botão do Menu para conhecer todos os meus comandos!",
 
    } else if ($data == 'queroservip') {
 
-       include("botcon/planos.php");
+       include("planos.php");
        
    } else if ($data == 'vipprivado') {
     apiRequest("editMessageText", array('chat_id' => $chat_id, 'message_id' => $message_id, "parse_mode" => "Markdown", "text" => '
