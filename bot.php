@@ -105,8 +105,8 @@ function processaCallbackQuery($callback){
   $data =  $callback['data'];
   $data_array=unserialize($data);
   $anterior = $message_id - 1;
-  $adm = "1484706029";
-  $adm2 = "902983459";
+  $adm = "5030535253";
+  $adm2 = "5030535253";
   
   if($data_array['data']=="apagar") {
      if($data_array['id']==$callback['from']['id']) {      
